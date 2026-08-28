@@ -127,4 +127,4 @@ Three-mode audit tool for group membership analysis. Use it to inspect a single 
 
 ---
 
-*Part of my Cloud Security / IAM Engineering portfolio. See more at [github.com/reyanqureshi](https://github.com/reyanqureshi)*
+*Part of my IT, systems and identity portfolio. See more at [github.com/reyanqureshi](https://github.com/reyanqureshi)*
