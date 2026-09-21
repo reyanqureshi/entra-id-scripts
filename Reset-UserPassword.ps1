@@ -87,7 +87,8 @@ try {
 Write-Log "=== Password Reset Complete ==="
 Write-Log "User          : $($User.DisplayName)"
 Write-Log "UPN           : $UPN"
-Write-Log "Temp Password : $TempPassword  <-- Deliver securely"
+Write-Log "Temp Password : (value not logged, delivered out of band)"
+Write-Host "Temp Password : $TempPassword" -ForegroundColor Yellow
 Write-Log "Force Change  : Yes"
 Write-Log "==============================="
 
