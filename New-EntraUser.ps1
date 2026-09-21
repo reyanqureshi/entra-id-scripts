@@ -115,7 +115,8 @@ try {
 
 Write-Log "=== Provisioning Complete ==="
 Write-Log "UPN           : $UPN"
-Write-Log "Temp Password : $TempPwd  <-- Deliver securely to user"
+Write-Log "Temp Password : (value not logged, delivered out of band)"
+Write-Host "Temp Password : $TempPwd" -ForegroundColor Yellow
 Write-Log "Force Change  : Yes"
 Write-Log "============================="
 
