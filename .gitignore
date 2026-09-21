@@ -1,0 +1,10 @@
+# Script output. Never commit these.
+*.log
+*.csv
+*.json
+*.xlsx
+
+# Local
+.DS_Store
+Thumbs.db
+*.local.ps1
