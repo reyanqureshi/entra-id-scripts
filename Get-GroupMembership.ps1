@@ -90,7 +90,7 @@ elseif ($PSCmdlet.ParameterSetName -eq "Group" -and $GroupName) {
 Members of '$GroupName':
 " -ForegroundColor Cyan
         $Members | ForEach-Object {
-            Write-Host "  - $($_.AdditionalProperties['userPrincipalName'] ?? $_.AdditionalProperties['displayName'])"
+            Write-Host "  - $(if ($_.AdditionalProperties['userPrincipalName']) { $_.AdditionalProperties['userPrincipalName'] } else { $_.AdditionalProperties['displayName'] })"
         }
         Write-Log "Total members: $($Members.Count)"
     } catch {
